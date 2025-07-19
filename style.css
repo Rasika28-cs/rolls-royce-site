@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.hero
+{
+    position: relative;
+}
+.n{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0; 
+    margin: 25px;
+    
+}
+
+nav ul li  {
+   
+    display: inline;
+    margin: 10px 15px ;
+}
+nav p{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    
+    list-style: none;
+    margin: 15px 25px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+nav ul li a{
+  padding: 10px 20px;
+  transition: border 0.3s ease, color 0.3s ease;
+  border: 2px solid transparent;
+}
+nav ul li a:hover{
+    border-radius: 35px;
+    border-color: black;
+    cursor: pointer;
+}
+.cor a {
+    text-decoration: none;
+    margin: 10px 25px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+.cor a{
+    padding: 10px 15px;
+    transition: border 0.3s ease,color 0.3s ease;
+    border: 2px solid transparent;
+}
+.cor a:hover {
+    border-radius: 35px;
+    border-color: black;
+    cursor: pointer;
+}
+.des{
+    margin-top: 10%;
+    max-width: 600px;
+    margin-left: 25px;
+}
+.des h1 {
+    font-size: 50px;
+    margin: 10px 0 15px;;
+}
+.des h2 {
+    font-size: 30px;
+    margin: 10px 0 15px;;
+}
+.des p{
+    
+    font-size: 18px;
+    margin: 10px 0 30px;
+}
+.des {
+  
+  padding: 10px 20px;
+  transition: border 0.3s ease, color 0.3s ease;
+  border: 2px solid transparent;
+}
+.des:hover
+{
+   
+    border-radius: 15px;
+    border-color: black;
+    cursor: pointer;
+
+}
+
+img {
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+
+}
+img {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
